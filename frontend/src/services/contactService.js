@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/contact";
+const API_URL = "https://shecanfoundation-auql.onrender.com/api/contact";
 
 export const getContacts = async () => {
   return await axios.get(API_URL);
