@@ -28,7 +28,7 @@ const Contact = () => {
       setLoading(true);
 
       await axios.post(
-        "http://localhost:5000/api/contact",
+        "https://shecanfoundation-auql.onrender.com/api/contact",
         formData
       );
 
